@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </link>
+    <title>Weather App JQuery</title>
+
+
+
+    <style>
+        .container-weather {
+            margin: 2rem 0;
+            padding: 2rem;
+            border: 1px solid black;
+            border-radius: 1rem;
+        }
+
+        .container-weather img {
+            width: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1>Weather App</h1>
+        <form action="">
+            <input type="text" placeholder="Santiago" id="txtTiempo">
+            <input type="submit" value="Buscar" id="btnTiempo" class="btn btn-primary">
+        </form>
+        <div class="container container-weather">
+            <p id="ciudad"></p>
+            <p id="temp"></p>
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
